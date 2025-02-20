@@ -11,12 +11,12 @@ import src.interfaces.NavegadorInternet;
 public class Main {
     public static void main(String[] args) {
         
-        // Criei um objeto Iphone para teste
+        // Criação de um objeto Iphone para teste
         Iphone meuIphone = new Iphone("iPhone 14", "iOS", 128);
 
-        // Vou testar os métodos
+        // Realização de teste de todos os métodos
         meuIphone.tocar();
-        meuIphone.selecionarMusica("Karma Police");
+    meuIphone.selecionarMusica("Karma Police");
         meuIphone.pausar();
         
         meuIphone.ligar("984372346");
